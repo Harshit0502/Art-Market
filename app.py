@@ -9,8 +9,7 @@ from ultralytics import YOLO
 from torchvision import transforms
 
 # Set paths for model and resource files
-MODEL_DIR = Path(".")  # Current directory
-
+MODEL_DIR = Path(".")
 YOLO_MODEL_PATH = MODEL_DIR / "best.pt"
 PRICE_MODEL_PATH = MODEL_DIR / "art_market_model.joblib"
 RF_PRICE_MODEL_PATH = MODEL_DIR / "rf_price.joblib"
